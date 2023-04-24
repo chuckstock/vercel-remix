@@ -11,6 +11,7 @@
     "@remix-run/serve": "^1.15.0",
     "@vercel/analytics": "^0.1.11",
     "@vercel/remix": "^1.15.0",
+    "isbot": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

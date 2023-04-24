@@ -23,5 +23,6 @@ module.exports = {
   future: {
     v2_meta: true,
     unstable_cssSideEffectImports: true,
+    v2_routeConvention: true,
   },
 }

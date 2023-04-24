@@ -14,6 +14,7 @@ specifiers:
   isbot: latest
   react: ^18.2.0
   react-dom: ^18.2.0
+  remix-flat-routes: ^0.5.8
   typescript: ^4.9.3
 
 dependencies:
@@ -25,6 +26,7 @@ dependencies:
   isbot: 3.6.10
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  remix-flat-routes: 0.5.8
 
 devDependencies:
   '@remix-run/dev': 1.15.0_@remix-run+serve@1.15.0
@@ -2706,7 +2708,6 @@ packages:
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
-    dev: true
 
   /base64-js/1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -2767,6 +2768,12 @@ packages:
       balanced-match: 1.0.2
       concat-map: 0.0.1
     dev: true
+
+  /brace-expansion/2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+    dependencies:
+      balanced-match: 1.0.2
+    dev: false
 
   /braces/3.0.2:
     resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
@@ -5563,6 +5570,13 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
+  /minimatch/5.1.6:
+    resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
+    engines: {node: '>=10'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: false
+
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: true
@@ -6456,6 +6470,13 @@ packages:
       mdast-util-to-hast: 11.3.0
       unified: 10.1.2
     dev: true
+
+  /remix-flat-routes/0.5.8:
+    resolution: {integrity: sha512-wMKS48CR5NN+wcMu34JUljcVfkKzuLIZ6eP0ksxE0zgJIeqz4mdPi/TZxvHAVossxAg174iLRh1E9d4wPmxAQg==}
+    hasBin: true
+    dependencies:
+      minimatch: 5.1.6
+    dev: false
 
   /require-like/0.1.2:
     resolution: {integrity: sha512-oyrU88skkMtDdauHDuKVrgR+zuItqr6/c//FXzvmxRGMexSDc6hNvJInGW3LL46n+8b50RykrvwSUIIQH2LQ5A==}

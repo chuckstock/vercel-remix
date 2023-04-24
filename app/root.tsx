@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
 } from '@remix-run/react'
 import { Analytics } from '@vercel/analytics/react'
+import { json } from '@vercel/remix'
 
 export const loader = async () => {
   return json({ ok: true })

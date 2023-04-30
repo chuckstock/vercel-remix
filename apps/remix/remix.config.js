@@ -10,16 +10,16 @@ module.exports = {
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "api/index.js",
   // publicPath: "/build/",
-  // routes: async (defineRoutes) => {
-  //   return flatRoutes('routes', defineRoutes, {
-  //     ignoredRouteFiles: [
-  //       '.*',
-  //       '**/*.css',
-  //       '**/*.test.{js,jsx,ts,tsx}',
-  //       '**/__*.*',
-  //     ],
-  //   })
-  // },
+  routes: async (defineRoutes) => {
+    return flatRoutes('routes', defineRoutes, {
+      ignoredRouteFiles: [
+        '.*',
+        '**/*.css',
+        '**/*.test.{js,jsx,ts,tsx}',
+        '**/__*.*',
+      ],
+    })
+  },
   future: {
     v2_meta: true,
     unstable_cssSideEffectImports: true,

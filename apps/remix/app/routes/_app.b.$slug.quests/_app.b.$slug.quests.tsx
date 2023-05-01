@@ -1,3 +1,10 @@
+import { Outlet } from '@remix-run/react'
+
 export default function Test() {
-  return <h1>Quests</h1>
+  return (
+    <div>
+      quests test
+      <Outlet />
+    </div>
+  )
 }

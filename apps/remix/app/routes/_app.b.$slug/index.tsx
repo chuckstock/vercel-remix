@@ -1,1 +1,1 @@
-export { default } from './_app.b.$slug'
+export { default } from './_app.b.$slug';

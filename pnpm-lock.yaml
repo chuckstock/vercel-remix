@@ -27,6 +27,7 @@ importers:
       react: ^18.2.0
       react-dom: ^18.2.0
       remix-flat-routes: ^0.5.8
+      remix-island: ^0.1.2
       typescript: ^4.9.3
     dependencies:
       '@remix-run/node': 1.15.0
@@ -39,6 +40,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       remix-flat-routes: 0.5.8
+      remix-island: 0.1.2_kyj3lvbdqgbfhl474nt3vob5tu
     devDependencies:
       '@remix-run/dev': 1.15.0_@remix-run+serve@1.15.0
       '@remix-run/eslint-config': 1.15.0_rollmblchzatnd6ayiciecrhqe
@@ -6753,6 +6755,19 @@ packages:
     hasBin: true
     dependencies:
       minimatch: 5.1.6
+    dev: false
+
+  /remix-island/0.1.2_kyj3lvbdqgbfhl474nt3vob5tu:
+    resolution: {integrity: sha512-1vXF56y7ZKb8caUduCKdkbxObAxZnTO+arQ94QlwKK6a7wVozGCfiOOk3lr919rm7cy54eeqOVI0hud3cfHlLg==}
+    peerDependencies:
+      '@remix-run/react': '>= 1'
+      '@remix-run/server-runtime': '>= 1'
+      react: '>= 16.8'
+      react-dom: '>= 16.8'
+    dependencies:
+      '@remix-run/react': 1.15.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /require-directory/2.1.1:

@@ -17,7 +17,8 @@
     "isbot": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remix-flat-routes": "^0.5.8"
+    "remix-flat-routes": "^0.5.8",
+    "remix-island": "^0.1.2"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.15.0",

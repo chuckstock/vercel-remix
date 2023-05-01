@@ -2,7 +2,7 @@ const { flatRoutes } = require('remix-flat-routes')
 
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
-  ignoredRouteFiles: ['**/.*'],
+  ignoredRouteFiles: ['**/*'],
   serverDependenciesToBundle: [
     '@rainbow-me/rainbowkit',
     '@rainbow-me/rainbowkit/wallets',

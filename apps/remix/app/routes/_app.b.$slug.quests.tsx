@@ -1,3 +1,3 @@
 export default function Test() {
-  return <h1>lasjfsaldkjfsadf</h1>
+  return <h1>Quests</h1>
 }

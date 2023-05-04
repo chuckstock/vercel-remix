@@ -6,21 +6,22 @@ import {
   Scripts,
   ScrollRestoration,
 } from '@remix-run/react'
-import { Analytics } from '@vercel/analytics/react'
+import { createHead } from 'remix-island'
+
+export const Head = createHead(() => (
+  <>
+    <Meta />
+    <Links />
+  </>
+))
 export default function App() {
   return (
-    <html lang='en'>
-      <head>
-        <Meta />
-        <Links />
-      </head>
-      <body>
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
-        <LiveReload />
-        <Analytics />
-      </body>
-    </html>
+    <>
+      <Head />
+      <Outlet />
+      <ScrollRestoration />
+      <Scripts />
+      <LiveReload />
+    </>
   )
 }

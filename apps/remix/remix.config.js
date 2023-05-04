@@ -12,9 +12,18 @@ module.exports = {
     'wretch/middlewares',
     'buffer-polyfill',
   ],
+  routes: async (defineRoutes) => {
+    return flatRoutes('routes', defineRoutes, {
+      ignoredRouteFiles: [
+        '.*',
+        '**/*.css',
+        '**/*.test.{js,jsx,ts,tsx}',
+        '**/__*.*',
+      ],
+    })
+  },
   future: {
     v2_meta: true,
     unstable_cssSideEffectImports: true,
-    v2_routeConvention: true,
   },
 }
